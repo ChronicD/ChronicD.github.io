@@ -1,16 +1,18 @@
-#body {
+.body {
 	width: auto;
     background-color: blue;
 }
 .h1, .h2, .h3, .h4, .h5, .h6 {
-    color: #333;
+    color: blue;
 }
 .p {
     line-height: 10px;
-    color: #666;
+    color: red;
 }
 .links {
 	float: left;
+	width: 50px;
+	height: 30px;
     border: 2px;
     border-color: #434343;
     border-radius: 2px;
