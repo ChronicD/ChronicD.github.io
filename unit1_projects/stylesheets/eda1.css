@@ -1,0 +1,16 @@
+#body {
+    background-color: blue;
+}
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #333;
+}
+.p {
+    line-height: 10px;
+    color: #666;
+}
+.links {
+    text-align: right;
+    border: 2px;
+    border-color: #434343;
+    border-radius: 2px;
+}
