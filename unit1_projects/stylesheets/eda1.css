@@ -1,4 +1,5 @@
 #body {
+	width: auto;
     background-color: blue;
 }
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -9,7 +10,7 @@
     color: #666;
 }
 .links {
-    text-align: right;
+	float: left;
     border: 2px;
     border-color: #434343;
     border-radius: 2px;
