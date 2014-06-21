@@ -3,7 +3,7 @@ body {
     background-color: blue;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: blue;
+    color: green;
 }
 p {
     line-height: 10px;
@@ -11,9 +11,6 @@ p {
 }
 .links {
 	float: left;
-}
-
-a {
 	display: block;
 	width: 50px;
 	height: 30px;
