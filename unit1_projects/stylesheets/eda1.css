@@ -1,4 +1,4 @@
-.body {
+#body {
 	width: auto;
     background-color: blue;
 }
@@ -11,6 +11,7 @@
 }
 .links {
 	float: left;
+	display: block;
 	width: 50px;
 	height: 30px;
     border: 2px;
