@@ -1,5 +1,6 @@
 body {
     margin: 0 7%;
+    min-width: 700px;
 }
 header, nav, section, aside, footer {
     display: block;
@@ -9,6 +10,7 @@ header {
     height: 100px;
     width: auto;
     background-color: #99ccff;
+    text-transform: uppercase;
 }
 .inner_container {
     position: relative;
@@ -23,7 +25,8 @@ h2 {
     text-transform: uppercase;
 }
 aside {
-    padding: 3% 0;
+    float: left;
+    padding: 30px 0;
     position: fixed;
     background-color: #99ccff;
 }
@@ -51,10 +54,8 @@ aside ul li a:visited {
 }
 .wrapper {
     display: block;
-    float: left;
-    width: 15%;
+    width: 162px;
     margin-right:2%;
-    padding-bottom: 80%;
 }
 p {
     padding-top: 1%;
@@ -62,12 +63,14 @@ p {
     line-height: 2em;
 }
 section {
+    float:right;
+    margin-left: 180px;
 	padding-left: 1%;
     overflow: hidden;
 }
 #intro {
     display: block;
-    padding: 4% 0;
+    padding: 30px 0;
 }
 img {
     width: 95%;
