@@ -1,0 +1,78 @@
+body {
+    margin: 0 7%;
+}
+header, nav, section, aside, footer {
+    display: block;
+}
+header {
+    position: relative;
+    height: 100px;
+    width: auto;
+    background-color: #99ccff;
+}
+.inner_container {
+    position: relative;
+    line-height: 100px;
+}
+h1 {
+    margin:0;
+    text-align: center;
+}
+h2 {
+    margin:0;
+    text-transform: uppercase;
+}
+aside {
+    padding: 3% 0;
+    position: fixed;
+    background-color: #99ccff;
+}
+aside ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+aside ul li {
+    padding: 0 5px 5px 5px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+aside ul li:hover {
+    background-color: #8AD3DE;
+}
+aside ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+}
+aside ul li a:visited {
+    color: #FFF;
+}
+.wrapper {
+    display: block;
+    float: left;
+    width: 15%;
+    margin-right:2%;
+    padding-bottom: 80%;
+}
+p {
+    padding-top: 1%;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    line-height: 2em;
+}
+section {
+	padding-left: 1%;
+    overflow: hidden;
+}
+#intro {
+    display: block;
+    padding: 4% 0;
+}
+img {
+    width: 95%;
+    height: auto;
+}
+article {
+    padding: 3% 0;
+}
