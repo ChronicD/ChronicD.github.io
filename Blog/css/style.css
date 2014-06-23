@@ -150,6 +150,10 @@ section:last-child, article:last-child {
     margin: 0 auto;
     width: auto;
 }
+
+.img_right  {
+    float: right;
+}
 /* Lists */
  ul.default {
     list-style: disc;
@@ -296,6 +300,24 @@ table.default tfoot {
 }
 table.default tbody {
 }
+
+.horizontal_list    {
+    margin: 0;
+    padding: 2em 0; 
+    display: table;
+    text-align:center;
+    width: 100%;
+}
+
+.horizontal_list p   {
+    display: table-cell;
+    margin-left:50px;
+    color: #fff;
+    background-color: #e04a3b;
+    border-radius: 3em;
+    box-shadow: 2px 2px 5px #888888;
+}
+
 /* Buttons */
  .button {
     position: relative;
