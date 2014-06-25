@@ -494,6 +494,11 @@ table.default tbody {
 .box.style3 header {
     text-align: center;
 }
+
+#small {
+    height: 50%;
+    margin: 20% auto 0 auto;
+}
 /*********************************************************************************/
 
 /* Icons                                                                         */
