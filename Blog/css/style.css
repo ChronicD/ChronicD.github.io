@@ -154,6 +154,7 @@ section:last-child, article:last-child {
 .img_right  {
     float: right;
     max-width: 500px;
+    border-radius: 2em;
 }
 /* Lists */
  ul.default {
