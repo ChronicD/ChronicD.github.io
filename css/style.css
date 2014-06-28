@@ -212,7 +212,7 @@ nav ul		{
 
 .link1 a {
 	position: relative;
-	height: 110%;
+	height: 105%;
 	display: block;
 	border-radius: 50% 50% 0 0;
 }
@@ -220,13 +220,12 @@ nav ul		{
 .container	{
 	display: none;
 	line-height: 3em;
-	margin: 0 1em;
 }
 
 nav ul li:hover .container	{
+	z-index: 80;
 	display: list-item;
 	position: absolute;
-
 }
 
 .link2	{
