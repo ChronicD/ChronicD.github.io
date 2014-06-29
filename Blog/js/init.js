@@ -174,5 +174,8 @@
 					_settings.poptrox.overlayOpacity = 0;
 			
 				$('.gallery').poptrox(_settings.poptrox);
+				$('.picture').poptrox(_settings.poptrox);
 
+				if ('.picture') 
+					_settings.poptrox.popupNavNextSelector = hidden;
 		});

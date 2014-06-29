@@ -152,6 +152,10 @@ section:last-child, article:last-child {
     width: auto;
 }
 
+.image.overlap  {
+    overflow: hidden;
+}
+
 .img_right  {
     display: block;
     float: right;
