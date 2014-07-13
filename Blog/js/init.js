@@ -49,7 +49,19 @@
 				windowMargin: 10,
 				usePopupNav: true
 			}
-
+	};
+	var _xtrasettings = {
+			poptrox: {
+				useBodyOverflow: false,
+				usePopupEasyClose: false,
+				overlayColor: '#0a1919',
+				overlayOpacity: 0.75,
+				usePopupDefaultStyling: false,
+				usePopupCaption: true,
+				popupLoaderText: '',
+				windowMargin: 10,
+				usePopupNav: false
+			}
 	};
 
 /*********************************************************************************/
@@ -174,8 +186,7 @@
 					_settings.poptrox.overlayOpacity = 0;
 			
 				$('.gallery').poptrox(_settings.poptrox);
-				$('.picture').poptrox(_settings.poptrox);
-
-				if ('.picture') 
-					_settings.poptrox.popupNavNextSelector = hidden;
+				$('.picture').each(function() {
+					$(this).poptrox(_xtrasettings.poptrox);
+				});
 		});
