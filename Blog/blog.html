@@ -594,7 +594,7 @@
     <!-- ---------------------------------------------------------------------------------------------------------------------- -->
     <article id="sixteenth" class="container box style3">
         <header>
-            <h2>W5 Tech Blog:  What, When, Why and How to use Classes</h2>
+            <h2>W5 Tech Blog: What, When, Why and How to use Classes</h2>
         </header>
         <section>
             <header>
@@ -608,24 +608,19 @@
 
             <div class="inner picture">
                 <a href="images/toys_02.jpg">
-                    <img src="images/toys_02.jpg" class="img_right" Title="Some simple LEGO instructions for an engine">
+                    <img src="images/toys_02.jpg" class="img_right" Title="Some simple LEGO instructions">
                 </a>
             </div>
 
             <h3>When its classy</h3>
-            <p>Generally i would say that creating classes is good practice, even in a simple application as it divides up the code into parts making it easier to manage and develop on. In more complex solutions it will allow for better organisation of the various functions and allow the work to be shared amongst developers more easily. If the classes are generic enough they may be used in multiple locations. This is particularly common with manipulating data where you want to apply similar logic to different data sets. Reading online i found  this article rather insightful <a href="http://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep#identify">4.6 How to identify and design a class</a>. It states that classes should be made when code:</p>
+            <p>Generally i would say that creating classes is good practice, even in a simple application as it divides up the code into parts making it easier to manage and develop on. In more complex solutions it will allow for better organisation of the various functions and allow the work to be shared amongst developers more easily. If the classes are generic enough they may be used in multiple locations. This is particularly common with manipulating data where you want to apply similar logic to different data sets. Reading online i found this article rather insightful <a href="http://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep#identify">4.6 How to identify and design a class</a>. It states that classes should be made when code:</p>
             <br>
             <ul>
-                <li>SRP - The Single Responsibility Principle - 
-A class should have one, and only one, reason to change.</li>
-                <li>OCP - The Open Closed Principle - 
-You should be able to extend a classes behavior, without modifying it.</li>
-                <li>LSP - The Liskov Substitution Principle- 
-Derived classes must be substitutable for their base classes.</li>
-                <li>DIP - The Dependency Inversion Principle- 
-Depend on abstractions, not on concretions.</li>
-                <li>ISP - The Interface Segregation Principle- 
-Make fine grained interfaces that are client specific.</li>
+                <li>SRP - The Single Responsibility Principle - A class should have one, and only one, reason to change.</li>
+                <li>OCP - The Open Closed Principle - You should be able to extend a classes behavior, without modifying it.</li>
+                <li>LSP - The Liskov Substitution Principle- Derived classes must be substitutable for their base classes.</li>
+                <li>DIP - The Dependency Inversion Principle- Depend on abstractions, not on concretions.</li>
+                <li>ISP - The Interface Segregation Principle- Make fine grained interfaces that are client specific.</li>
             </ul>
             <br>
             <h3>Seems like extra work</h3>
@@ -633,12 +628,12 @@ Make fine grained interfaces that are client specific.</li>
             <br>
             <h3>Being Classy</h3>
             <p>Classes are declared using the class keyword, they also have a access level and className.</p>
-            <p>public class className { <i>contents of class</i> }</p>
+            <blockquote>
+                <p>public class className { <i>contents of class</i> }</p></blockquote>
             <p>Objects are then declared as instances of classes, this includes methods.</p>
-            <p>className newObject = new className</p>
+            <blockquote><p>className newObject = new className</p></blockquote>
             <p>Classes may be inherited by appending a colon after the class name declaring the class to inherit from</p>
-            <p>public class Manager : Employee { <i>contents of class</i> }</p>
-            <br>
+            <blockquote><p>public class Manager : Employee { <i>contents of class</i> }</p></blockquote>
             <p>So in short its Classy to use classes — and you will be like Batman!</p>
         </section>
         <footer id="footer_outer">
